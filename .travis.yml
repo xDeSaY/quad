@@ -1,0 +1,5 @@
+os: linux
+language: c
+script: make
+
+

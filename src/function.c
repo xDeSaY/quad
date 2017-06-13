@@ -14,7 +14,7 @@ int check(int D)
 	return 0;
 }
 
-int discsr(int a, int b, int c)
+int discr(int a, int b, int c)
 {
 	int D = b * b - 4 * a * c;
 	return D;

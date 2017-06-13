@@ -29,7 +29,7 @@ int main()
 			printf("%.2f\n", x);
 			x = ((-1) * b - sqrt(D)) / (2 * a);
 			printf("%.2f", x);
-			breake;
+			break;
 	}
 	return 0;
 }

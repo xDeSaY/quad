@@ -13,8 +13,8 @@ int main()
 	scanf("%d",&b);
 	printf("c = ");
 	scanf("%d",&c);
-	D = discr(a, b, c);
-	i = check(D);
+	D = Discr(a, b, c);
+	i = Check(D);
 
 	switch (i) {
 		case 0:

@@ -1,5 +1,5 @@
 os: linux
 language: c
-script: make
+script: make && make test
 
 

@@ -1,9 +1,7 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
-#include <stdlib.h>
-#include <stdio.h>
-
-void Hello();
+int discr(int a, int b, int c);
+int check(int D);
 
 #endif

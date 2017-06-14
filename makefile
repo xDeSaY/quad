@@ -30,9 +30,6 @@ clean:
 	@echo "Cleaning files in build directory" 	
 	@rm -rf build/*.d build/*.o 
 	@rm -rf build/test/*.d build/test/*.o
-	@echo "Cleaning binaries"
-	@rm -rf bin/equation.exe 
-	@rm -rf bin/equation_test.exe 
 	@echo "All files have been cleaned."	
 
 -include build/*.d

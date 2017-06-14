@@ -1,7 +1,7 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
-int Discr(int a, int b, int c);
+float Discr(float a, float b, float c);
 int Check(int D);
 
 #endif

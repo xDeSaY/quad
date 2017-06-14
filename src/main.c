@@ -4,15 +4,16 @@
 
 int main() 
 {
-	int a,b,c,D,i;
+	int i;
+	float a,b,c,D;
 	float x;
 	printf("a*(x*x)+b*x+c=0\n");
 	printf("a = ");
-	scanf("%d",&a);
+	scanf("%f",&a);
 	printf("b = ");
-	scanf("%d",&b);
+	scanf("%f",&b);
 	printf("c = ");
-	scanf("%d",&c);
+	scanf("%f",&c);
 	D = Discr(a, b, c);
 	i = Check(D);
 
